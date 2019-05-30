@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _data/gallery.yml
   label: Gallery
-  match: "**/*"
 - type: document
   path: _data/gigs.yml
   label: Gigs
