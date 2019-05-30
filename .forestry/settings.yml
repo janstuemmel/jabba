@@ -5,9 +5,12 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
+  path: _data/gallery.yml
+  label: Gallery
+  match: "**/*"
+- type: document
   path: _data/gigs.yml
   label: Gigs
-  match: "**/*"
 - type: jekyll-pages
   label: Pages
   create: all
