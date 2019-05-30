@@ -60,12 +60,12 @@ layout: default
     <div class="row">
       <div class="column">
         {% for image in site.data.gallery.image limit: limit %}
-        <img src="{{ image.image }}" />
+        <img src="{{ image.image | prepend:site.baseurl }}" />
         {% endfor %}
       </div>
       <div class="column">
         {% for image in site.data.gallery.image offset: limit %}
-        <img src="{{ image.image }}" />
+        <img src="{{ image.image | prepend:site.baseurl }}" />
         {% endfor %}
       </div>
     </div>
