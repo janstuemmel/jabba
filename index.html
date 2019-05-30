@@ -2,7 +2,6 @@
 layout: default
 
 ---
-
 <div class="section intro">
   <div class="intro-container wrapper fullheight">
     <div class="logo"></div>
@@ -60,12 +59,12 @@ layout: default
     {% assign limit = site.data.gallery | size | divided_by: 2 %}
     <div class="row">
       <div class="column">
-        {% for image in site.data.gallery limit: limit %}
+        {% for image in site.data.gallery.image limit: limit %}
         <img src="{{ image.image }}" />
         {% endfor %}
       </div>
       <div class="column">
-        {% for image in site.data.gallery offset: limit %}
+        {% for image in site.data.gallery.image offset: limit %}
         <img src="{{ image.image }}" />
         {% endfor %}
       </div>
