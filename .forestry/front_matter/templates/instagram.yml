@@ -1,4 +1,23 @@
 ---
 label: instagram
 hide_body: true
-fields: []
+fields:
+- name: gallery
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: image
+  - name: url
+    type: text
+    config:
+      required: false
+    label: Instagram URL
+    description: Instagram URL
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: gallery
