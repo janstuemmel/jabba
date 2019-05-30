@@ -1,0 +1,10 @@
+title: JABBADAFUNK
+
+facebook: https://fb.com/jabbadafunk
+spotify: https://open.spotify.com/album/4yVEkiFWnm4SmryiqMp31E?si=XpE94xX2SpKtJJuijMPzkg
+youtube: https://www.youtube.com/watch?v=Qc6cF5pMobo
+instagram: https://www.instagram.com/jabbadafunk/
+
+host: 0.0.0.0
+
+exclude: [ "README.md", ".gitignore" ]

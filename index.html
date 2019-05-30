@@ -1,0 +1,82 @@
+---
+layout: default
+
+---
+
+<div class="section intro">
+  <div class="intro-container wrapper fullheight">
+    <div class="logo"></div>
+    <div class="social">
+      <div class="social-link">
+        <a target="_BLANK" href="{{ site.facebook }}">
+          <i class="fab fa-facebook-square fa-3x"></i>
+        </a>
+      </div>  
+      <div class="social-link">
+        <a target="_BLANK" href="{{ site.youtube }}">
+          <i class="fab fa-youtube fa-3x"></i>
+        </a>
+      </div>  
+      <div class="social-link">
+        <a target="_BLANK" href="{{ site.spotify }}">
+          <i class="fab fa-spotify fa-3x"></i>
+        </a>
+      </div>
+      <div class="social-link">
+        <a target="_BLANK" href="{{ site.instagram }}">
+          <i class="fab fa-instagram fa-3x"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section ep">
+  <div class="ep-container wrapper grid-2x">
+    <div class="ep-description">
+      <img src="img/srni.png" />
+    </div>
+    <div class="ep-image">
+      <img src="img/ep.jpg" />
+    </div>
+  </div>
+</div>
+
+<div class="section gigs">
+  <div class="wrapper">
+    <div class="gigs-list">
+      {% for gig in site.data.gigs %}
+      <div class="gigs-list-item {% if gig.completed %}completed{% endif %}">
+        <div class="gigs-title">{{ gig.name }}</div>
+        <div class="gigs-meta">{{ gig.date | date: "%d.%m.%Y" }}, {{ gig.location }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="section images">
+  <div class="wrapper images-container">
+    {% assign limit = site.data.gallery | size | divided_by: 2 %}
+    <div class="row">
+      <div class="column">
+        {% for image in site.data.gallery limit: limit %}
+        <img src="{{ image.image }}" />
+        {% endfor %}
+      </div>
+      <div class="column">
+        {% for image in site.data.gallery offset: limit %}
+        <img src="{{ image.image }}" />
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section footer">
+  <div class="wrapper">
+    <div class="footer-content">
+      Created 2018 by Jan Stümmel, hosted by Github Pages 
+    </div>
+  </div>
+</div>

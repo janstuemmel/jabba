@@ -1,0 +1,81 @@
+---
+- name: GARNIX Open Air TU München
+  location: Garching
+  date: 2019-06-04 14:00:00 +0000
+  completed: false
+- name: Wudzdog Open Air
+  location: Dornstadt
+  date: 2019-06-22T00:00:00.000+00:00
+  completed: false
+- name: Emergenza Finale
+  location: Backstage München
+  date: 2019-06-29 19:00:00 +0000
+  completed: false
+- name: 'Rosa Laub Festival'
+  location: Vornbach am Inn
+  date: 2019-07-13 14:30:00 +0000
+  completed: false
+- name: Rock am Rothenberg Open Air
+  location: Enzenreuth
+  date: 2019-07-20 09:00:00 +0000
+  completed: false
+- name: 'Bolzen Bike Fest'
+  location: Regensburg
+  date: 2019-07-27 19:00:00 +0000
+  completed: false
+- name: Humulus Lupulus Open Air
+  location: Scheyern
+  date: 2019-08-03 18:00:00 +0000
+  completed: false
+- name: Nacht der Musik Freising
+  location: Furtner Bräu
+  date: 2019-05-11 19:00:00 +0000
+  completed: true
+- name: Emergenza Semifinale
+  location: München
+  date: 2019-05-04 20:09:00 +0000
+  completed: true
+- name: Tanzlounge (powered by Sazkultur Augsburg)
+  location: Augsburg
+  date: 2019-05-03T00:00:00.000+00:00
+  completed: true
+- name: Lindenkeller (Culture Clash by 3Klang e.V.)
+  location: Freising
+  date: 2019-04-30T00:00:00.000+00:00
+  completed: true
+- name: Feierwerk Südpolstation (Culture Clash by 3Klang e.V.)
+  location: München
+  date: 2019-04-26 00:00:00 +0000
+  completed: true
+- name: Waldstraße4-Bar
+  location: Murnau
+  date: 2019-03-29 20:00:00 +0000
+  completed: true
+- name: Lindenkeller (Rainer von Vielen Support)
+  location: Freising
+  date: 2019-03-02T00:00:00.000+00:00
+  completed: true
+- name: Backstage Club (Emergenza Festival)
+  location: München
+  date: 2019-02-01T00:00:00.000+00:00
+  completed: true
+- name: Bouldernight
+  location: Freising
+  date: 2019-01-12T00:00:00.000+00:00
+  completed: true
+- name: 'Furtnerbräu'
+  location: Freising
+  date: 2018-12-22T00:00:00.000+00:00
+  completed: true
+- name: Studentenwohnheim 2 Bar
+  location: Freising
+  date: 2018-10-22T00:00:00.000+00:00
+  completed: true
+- name: Aster Sommer Fest
+  location: Ast
+  date: 2018-09-01T00:00:00.000+00:00
+  completed: true
+- name: Kultur ab Hof
+  location: Ach (AT)
+  date: 2018-07-21T00:00:00.000+00:00
+  completed: true
