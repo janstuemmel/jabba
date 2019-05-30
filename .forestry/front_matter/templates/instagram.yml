@@ -21,3 +21,5 @@ fields:
     max: 
     labelField: 
   label: Image
+pages:
+- _data/gallery.yml
