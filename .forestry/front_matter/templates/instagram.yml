@@ -2,7 +2,7 @@
 label: instagram
 hide_body: true
 fields:
-- name: gallery
+- name: image
   type: field_group_list
   fields:
   - name: image
@@ -20,6 +20,6 @@ fields:
     min: 
     max: 
     labelField: 
-  label: gallery
+  label: Image
 pages:
 - _data/gallery.yml
