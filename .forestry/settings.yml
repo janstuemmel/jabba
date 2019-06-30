@@ -7,7 +7,6 @@ sections:
 - type: document
   path: _config.yml
   label: Config
-  match: "**/*"
 - type: document
   path: _data/gallery.yml
   label: Gallery
