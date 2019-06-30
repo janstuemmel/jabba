@@ -61,12 +61,26 @@ layout: default
     <div class="row">
       <div class="column">
         {% for image in site.data.gallery limit: limit %}
-        <img src="{{ image.image }}" />
+        <div class="image-container">
+          <a href="{{ image.url }}" target="_blank">
+            <img src="{{ image.image }}" />
+            <div class="image-overlay">
+              <i class="fab fa-instagram fa-5x"></i>
+            </div>
+          </a>
+        </div>
         {% endfor %}
       </div>
       <div class="column">
         {% for image in site.data.gallery offset: limit %}
-        <img src="{{ image.image }}" />
+        <div class="image-container">
+          <a href="{{ image.url }}" target="_blank">
+            <img src="{{ image.image }}" />
+            <div class="image-overlay">
+              <i class="fab fa-instagram fa-5x"></i>
+            </div>
+          </a>
+        </div>
         {% endfor %}
       </div>
     </div>
@@ -76,7 +90,14 @@ layout: default
 <div class="section footer">
   <div class="wrapper">
     <div class="footer-content">
-      Created 2018 by Jan Stümmel, hosted by Github Pages 
+      <div><i class="far fa-save fa-5x"></i></div> 
+      <p>&nbsp;</p> 
+      <p><a href="https://drive.google.com/open?id=1Z1C5dEd_C4ySVIsR274a2mxOFUgYoQ8z" target="_blank">Download Promo</a></p> 
+      <p>&nbsp;</p> 
+      <p>Created 2019 by <a href="https://janstuemmel.de" target="_blank">Jan Stümmel</a></p> 
+      <p>hosted by Github Pages</p> 
+      <p>&nbsp;</p>
+      <p><a href="privacy.html">Imprint & Privacy</a></p> 
     </div>
   </div>
 </div>
