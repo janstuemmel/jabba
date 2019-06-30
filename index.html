@@ -59,7 +59,7 @@ layout: default
     {% assign limit = site.data.gallery.image | size | divided_by: 2 %}
     <div class="row">
       <div class="column">
-        {% for image in site.data.gallery limit: limit %}
+        {% for image in site.data.gallery.image limit: limit %}
         <div class="image-container">
           <a href="{{ image.url }}" target="_blank">
             <img src="{{ image.image | prepend:site.baseurl }}" />
@@ -71,7 +71,7 @@ layout: default
         {% endfor %}
       </div>
       <div class="column">
-        {% for image in site.data.gallery offset: limit %}
+        {% for image in site.data.gallery.image offset: limit %}
         <div class="image-container">
           <a href="{{ image.url }}" target="_blank">
             <img src="{{ image.image | prepend:site.baseurl }}" />
