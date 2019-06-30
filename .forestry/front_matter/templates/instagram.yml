@@ -1,0 +1,25 @@
+---
+label: instagram
+hide_body: true
+fields:
+- name: image
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 250
+    label: image
+  - name: url
+    type: text
+    config:
+      required: false
+    label: Instagram URL
+    description: Instagram URL
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Image
+pages:
+- _data/gallery.yml

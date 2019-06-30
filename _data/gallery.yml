@@ -1,14 +1,10 @@
 ---
-- 
-  url: https://www.instagram.com/p/Bu1LS5an0vo
-  image: https://www.instagram.com/p/Bu1LS5an0vo/media?size=l
-- 
-  url: https://www.instagram.com/p/Bv1NeNznubR
-  image: https://www.instagram.com/p/Bv1NeNznubR/media?size=l
-- 
-  url: https://www.instagram.com/p/BtYiX3YHe6U
-  image: https://www.instagram.com/p/BtYiX3YHe6U/media?size=l
-- 
-  url: https://www.instagram.com/p/BuRPzpqnk0S
-  image: https://www.instagram.com/p/BuRPzpqnk0S/media?size=l
-
+image:
+- image: "/uploads/52320022_571685259984283_1311553581651674676_n.jpg"
+  url: ''
+- image: "/uploads/60237897_288107315430754_6964793364494504610_n.jpg"
+  url: ''
+- image: "/uploads/60237897_288107315430754_6964793364494504610_n-3.jpg"
+  url: ''
+- image: "/uploads/60237897_288107315430754_6964793364494504610_n-2.jpg"
+  url: ''
